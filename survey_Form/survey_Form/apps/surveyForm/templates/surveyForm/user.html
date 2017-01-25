@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="UF8" content="">
+       <title>Dojo Survey</title>
+       <style>
+
+       .button{
+           width: 63px;
+           height: 30px;
+           margin-left: 220px;
+           border: 4px solid black;
+           color: white;
+           background-color: #76A5AF;
+       }
+       </style>
+    </head>
+    <body>
+        <a href="http://www.codingdojo.com" target="_blank">Submitted Information</a><br><br>
+            <div>
+
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td>{{ name }}</td>
+                    </tr>
+                    <tr>
+                        <td>Dojo Location:</td>
+                        <td>{{ location }}</td>
+                    </tr>
+                    <tr>
+                        <td>Favorite Language:</td>
+                        <td>{{ language }}</td>
+                    </tr>
+                    <tr>
+                        <td>Comment(option):</td>
+                        <td>{{ comment }}</td>
+                    </tr>
+                </table>
+
+                    <a href="/"><button class="button" >Go Back</button></a>
+                </form>
+            </div>
+    </body>
+</html>
